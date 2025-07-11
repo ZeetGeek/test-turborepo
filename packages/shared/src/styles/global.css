@@ -1,11 +1,1 @@
-.theme-card {
-	background: red;
-}
-
-.theme-button {
-	background: green;
-}
-
-h1 {
-	background: hotpink;
-}
+@import "tailwindcss";

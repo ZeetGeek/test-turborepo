@@ -1,11 +1,3 @@
-import ThemeCard from "@repo/shared/components/themeCard";
-import "@repo/shared/styles/global";
-
 export default function CustomerView() {
-	return (
-		<>
-			<h1>Customer View</h1>
-			<ThemeCard />
-		</>
-	);
+	return <div className="min-h-screen w-full grid place-items-center bg-blue-500 text-4xl font-extrabold">Customer View</div>;
 }

@@ -1,10 +1,3 @@
-import Navbar from "@repo/shared/navbar";
-
 export default function AdminView() {
-	return (
-		<>
-			<h1>Admin View</h1>
-			<Navbar />
-		</>
-	);
+	return <div className="min-h-screen w-full grid place-items-center bg-green-500 text-4xl font-extrabold">Admin View</div>;
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import "./customer.css";
+import "@repo/shared/styles/global";
 
 export const metadata: Metadata = {
 	title: "Customer",
