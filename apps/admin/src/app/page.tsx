@@ -1,4 +1,4 @@
-import Navbar from "@repo/shared/navbar";
+import Navbar from "@repo/shared/navbar.tsx";
 
 export default function AdminView() {
 	return (
