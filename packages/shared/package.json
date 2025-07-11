@@ -3,9 +3,9 @@
 	"version": "0.0.0",
 	"private": true,
 	"exports": {
-		"./*": "./src/*",
-		"./components/*": "./src/components/*",
-		"./styles/*": "./src/styles/*"
+		"./*": "./src/*.tsx",
+		"./components/*": "./src/components/*.tsx",
+		"./styles/*": "./src/styles/*.css"
 	},
 	"scripts": {
 		"lint": "eslint . --max-warnings 0",
